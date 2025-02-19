@@ -49,9 +49,9 @@ export type PartialPerson<T extends Person> = {
 	// PartialPerson<Admin> would have optional 'name', 'age', and 'role' properties without 'type'.
 };
 
-export function filterPersons<T extends Person>(
+export function filterPersons(
 	persons: Person[],
-	personType: T["type"],
+	personType: string,
 	criteria: PartialPerson<Admin> | PartialPerson<User>
 ): Person[] {
 	return persons
