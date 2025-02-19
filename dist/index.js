@@ -4,12 +4,7 @@ exports.adminsOfAge23 = exports.usersOfAge23 = void 0;
 exports.logPerson = logPerson;
 exports.filterPersons = filterPersons;
 const persons = [
-    {
-        type: "user",
-        name: "Max Mustermann",
-        age: 25,
-        occupation: "Chimney sweep",
-    },
+    { type: "user", name: "Max Mustermann", age: 25, occupation: "Chimney sweep" },
     { type: "admin", name: "Jane Doe", age: 32, role: "Administrator" },
     { type: "user", name: "Kate Müller", age: 23, occupation: "Astronaut" },
     { type: "admin", name: "Bruce Willis", age: 64, role: "World saver" },
